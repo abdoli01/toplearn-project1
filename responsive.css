@@ -1,0 +1,203 @@
+@media screen and (max-width: 1300px) {
+  .menu-title p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  header nav ul li {
+    margin: 0 5px;
+  }
+  .story-title p {
+    width: 90%;
+  }
+  .story-title h2 {
+    margin-top: 50px;
+  }
+  #our-story {
+    height: 300px;
+  }
+  .delight-imgs img {
+    width: 45%;
+  }
+  .delight-title {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  header nav ul {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+    float: right;
+  }
+  header nav .logo {
+    float: left;
+  }
+  .hamburger-icon img {
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .story-title h2 {
+    margin-top: 0px;
+  }
+  .story-title {
+    width: 100%;
+  }
+  .story-img {
+    width: 100%;
+    text-align: center;
+  }
+  .story-img img {
+    width: 400px;
+    margin-top: 12px;
+  }
+  #our-story {
+    height: 520px;
+    padding-bottom: 0;
+    padding-top: 60px;
+  }
+  .menu-title {
+    width: 100%;
+  }
+  .menu-img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .menu-title h2 {
+    margin-top: 0;
+  }
+  #menu {
+    padding: 70px 0;
+  }
+  .menu-img img {
+    width: 20%;
+    height: 150px;
+  }
+  .delight-title {
+    width: 100%;
+    margin-top: 0;
+  }
+  .delight-imgs {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .delight-imgs img {
+    width: 35%;
+    height: 350px;
+    margin: 0 10px;
+  }
+  #responsive-nav {
+    display: block;
+    width: 220px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: -220px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: all 0.4s ease;
+    z-index: 3;
+  }
+  .open {
+    right: 0 !important;
+  }
+  #responsive-nav ul {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #responsive-nav ul li {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    height: 500px;
+  }
+  .header-title .container h1 {
+    font-size: 30px;
+  }
+  .header-title .container p {
+    font-size: 18px;
+  }
+  #our-story {
+    height: 550px;
+  }
+  .sweet-title h2 {
+    font-size: 26px;
+  }
+  .sweet-title p {
+    font-size: 14px;
+  }
+  .menu-img img {
+    width: 40%;
+  }
+
+  #menu {
+    height: auto;
+  }
+  #menu .container {
+    overflow: auto;
+  }
+  .footer-about p {
+    width: 90%;
+  }
+  .news-letter {
+    width: 100%;
+  }
+  .socials {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .contact-us {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header-title .container h1 {
+    font-size: 22px;
+  }
+  .header-title .container p {
+    font-size: 16px;
+  }
+  #our-story {
+    height: 600px;
+  }
+  .story-img img {
+    width: 100%;
+  }
+  .sweet-title h2 {
+    font-size: 22px;
+  }
+  .hot-title h2 {
+    font-size: 30px;
+  }
+  .hot-title p {
+    font-size: 16px;
+  }
+  .delight-imgs img {
+    width: 60%;
+    height: 350px;
+    margin: 0;
+  }
+  .copy-right h2 {
+    font-size: 20px;
+  }
+  .copy-right p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .menu-img img {
+    width: 100%;
+  }
+  .delight-imgs img {
+    height: 300px;
+  }
+}

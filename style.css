@@ -1,0 +1,307 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("./public/fonts/vazir.eot") format("eot"),
+    url("./public/fonts/vazir.ttf") format("truetype"),
+    url("./public/fonts/vazir.woff") format("woff"),
+    url("./public/fonts/vazir.woff2") format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  direction: rtl;
+  font-family: "Vazir";
+  position: relative;
+}
+.overly {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hamburger-icon {
+  width: 20%;
+  display: none;
+}
+.hamburger-icon img {
+  width: 50px;
+}
+#responsive-nav {
+  display: none;
+}
+.backdrop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 4227.5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+/* header */
+
+header {
+  background-image: url(./public/images/bakcground-header.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 80px;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+header nav ul {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  line-height: 4;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+header nav .logo {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: left;
+}
+header nav .logo img {
+  width: 80px;
+  margin-top: 9px;
+}
+.header-title {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.header-title h1 {
+  font-size: 38px;
+  margin-bottom: 5px;
+}
+.header-title p {
+  font-size: 20px;
+}
+
+/* our story */
+
+#our-story {
+  width: 100%;
+  height: 450px;
+  padding: 100px 0;
+}
+.story-title {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+.story-title h2 {
+  font-size: 30px;
+  margin-top: 100px;
+}
+.story-title p {
+  width: 500px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.story-img {
+  width: 50%;
+  float: right;
+}
+.story-img img {
+  width: 100%;
+}
+
+/* sweet section */
+
+#sweet {
+  background-image: url(./public/images/backtwo.jpg);
+  height: 300px;
+  width: 100%;
+  padding: 20px 0;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+.sweet-title {
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+}
+.sweet-title h2 {
+  font-size: 30px;
+}
+.sweet-title p {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* menu */
+
+#menu {
+  width: 100%;
+  height: 400px;
+  padding: 100px 0;
+}
+.menu-title {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+.menu-title h2 {
+  margin-top: 90px;
+}
+.menu-title p {
+  width: 450px;
+  margin: auto;
+  line-height: 25px;
+}
+.menu-title a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid rgb(184, 28, 28);
+}
+.menu-img {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+.menu-img img {
+  width: 40%;
+  height: 200px;
+  margin-bottom: -3px;
+}
+
+/* hot */
+
+#hot {
+  background-image: url(./public/images/hot.jpeg);
+  background-size: cover;
+  height: 300px;
+  background-attachment: fixed;
+  position: relative;
+}
+.hot-title {
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+}
+.hot-title h2 {
+  font-size: 40px;
+}
+.hot-title p {
+  font-size: 20px;
+}
+#delight {
+  padding: 100px 0;
+}
+.delight {
+  width: 100%;
+  overflow: auto;
+}
+.delight-title {
+  width: 50%;
+  float: right;
+  text-align: center;
+  margin-top: 77px;
+}
+.delight-imgs {
+  width: 50%;
+  float: right;
+  text-align: left;
+}
+.delight-imgs img {
+  width: 200px;
+  height: 300px;
+  margin: 0 10px 0 0;
+}
+
+/* footer */
+
+#footer {
+  padding-top: 20px;
+  background-color: #141414;
+  width: 100%;
+}
+#footer .container {
+  overflow: auto;
+}
+.footer-about {
+  text-align: center;
+  color: #fff;
+}
+.footer-about h3 {
+  font-size: 30px;
+}
+.footer-about p {
+  font-size: 14px;
+  width: 600px;
+  margin: auto;
+  line-height: 28px;
+}
+.contact-us {
+  color: #fff;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.news-letter {
+  float: right;
+  width: 50%;
+}
+.news-letter input {
+  padding: 8px 10px;
+  margin-top: 10px;
+  font-family: "Vazir";
+}
+.socials {
+  float: right;
+  width: 50%;
+}
+.socials ul {
+  list-style: none;
+  margin-top: 18px;
+}
+.socials li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.socials li a {
+  color: #fff;
+  text-decoration: none;
+}
+.socials li a svg {
+  font-size: 20px;
+}
+.copy-right {
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+.copy-right h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
